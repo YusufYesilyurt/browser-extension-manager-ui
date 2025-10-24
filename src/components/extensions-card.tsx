@@ -14,7 +14,7 @@ export default function ExtensionsCard() {
           {/* card content */}
           <div className="flex items-start gap-4">
             <img
-              src={extension.logo}
+              src={`/browser-extension-manager-ui/${extension.logo}`}
               alt={`${extension.name} logo`}
               width={60}
               height={60}
